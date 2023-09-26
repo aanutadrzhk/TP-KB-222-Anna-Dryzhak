@@ -9,7 +9,11 @@ def subtraction(a,b):
 def multiplication(a,b):
     return a * b
 def division(a,b):
-    return a / b
+    if b == 0:
+        res = "Ділення на 0 не можливе"
+    else:
+        res = a / b
+    return res
 
 match op:
     case "+":
