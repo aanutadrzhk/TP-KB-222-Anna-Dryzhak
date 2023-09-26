@@ -10,10 +10,8 @@ def multiplication(a,b):
     return a * b
 def division(a,b):
     if b == 0:
-        res = "Ділення на 0 не можливе"
-    else:
-        res = a / b
-    return res
+        return "Ділення на 0 не можливе"
+    return a / b
 
 match op:
     case "+":
