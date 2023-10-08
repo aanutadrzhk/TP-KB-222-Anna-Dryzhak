@@ -1,3 +1,6 @@
+# 08-10-2023
+add folder topic_04
+add solution for task1 task2 and task3
 # 01-10-2023
 add folder topic_03
 add solution for task1 task2 task3 and task4
