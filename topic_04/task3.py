@@ -1,6 +1,6 @@
 try:
     number = int("не число")
-except ValueError as e:
+except ValueError:
     print("Недійсне значення")
 
 try:
@@ -28,7 +28,7 @@ except TypeError:
 
 try:
     print(undefined_variable)
-except NameError as e:
+except NameError:
     print("Неіснюча змінна")
 
 try:
