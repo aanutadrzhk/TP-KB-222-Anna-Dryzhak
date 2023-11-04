@@ -1,5 +1,3 @@
-# 04-11-2023
-added execution lab_01
 # 28-10-2023
 add folder topic_07
 add solution for task1 task2 task3 and task4
