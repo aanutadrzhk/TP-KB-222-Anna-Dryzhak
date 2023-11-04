@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 
+=======
+## List [Item1, Item2, Item3]
+## Item {"name":"Jon", "phone":"0631234567"}
+
+# already sorted list
+>>>>>>> d60b2a07cd248b17cc22ba954007576911d3c954
 list = [
     {"name":"Bob", "phone":"0631234567", "age":"18", "gender":"man"},
     {"name":"Emma", "phone":"0631234567", "age":"20", "gender":"woman"},
@@ -92,4 +99,8 @@ def main():
                 print("Wrong chouse")
 
 
+<<<<<<< HEAD
 main()
+=======
+main()
+>>>>>>> d60b2a07cd248b17cc22ba954007576911d3c954

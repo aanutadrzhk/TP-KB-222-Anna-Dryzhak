@@ -32,7 +32,7 @@ def main():
         print(result)
 
         play_again = input("Зіграти ще раз? (y/n): ")
-        if play_again.lower() != 'y':
+        if play_again.lower() == 'n':
             break
 
 if __name__ == "__main__":
