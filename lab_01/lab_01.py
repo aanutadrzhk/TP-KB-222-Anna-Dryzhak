@@ -1,7 +1,4 @@
-## List [Item1, Item2, Item3]
-## Item {"name":"Jon", "phone":"0631234567"}
 
-# already sorted list
 list = [
     {"name":"Bob", "phone":"0631234567", "age":"18", "gender":"man"},
     {"name":"Emma", "phone":"0631234567", "age":"20", "gender":"woman"},
