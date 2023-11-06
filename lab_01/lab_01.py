@@ -46,20 +46,24 @@ def deleteElement():
 
 def updateElement():
     name = input("Please enter name to be updated: ")
-    for item in list:
+    for index, item in enumerate(list):
         if name == item["name"]:
             print("Student found. Please update the information:")
             new_name = input("Please enter new name: ")
             new_phone = input("Please enter new phone number: ")
             new_age = input("Please enter new age: ")
             new_gender = input("Please enter new gender: ")
+            new_item = {"name": new_name, "phone": new_phone, "age": new_age, "gender": new_gender}
 
-            item["name"] = new_name
-            item["phone"] = new_phone
-            item["age"] = new_age
-            item["gender"] = new_gender
+            del list[index]
 
-            list.sort(key=lambda x: x["name"])
+            insertPosition = 0
+            for position, item in enumerate(list):
+                if new_name > item["name"]:
+                    insertPosition = position + 1
+                else:
+                    break
+            list.insert(insertPosition, new_item)
             print("Student information updated.")
             return
 
@@ -90,9 +94,5 @@ def main():
             case _:
                 print("Wrong chouse")
 
-
-<<<<<<< HEAD
-main()
-=======
-main()
->>>>>>> d60b2a07cd248b17cc22ba954007576911d3c954
+if __name__ == "__main__":
+    main()
