@@ -1,3 +1,5 @@
+# 12-11-2023
+added execution lab_02
 # 04-11-2023
 added execution lab_01
 # 28-10-2023
